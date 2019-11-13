@@ -12,7 +12,6 @@ public class Deposito {
     public List<Vagon> vagones=new ArrayList<>(  );
     public List<Locomotora> locomotorasSueltas=new ArrayList<>(  );
 
-    //public List<Vagon>vagonPesado=new ArrayList<>(  );
 
     public void setFormacion(List<Formacion> formaciones) {
        this.formaciones = formaciones;}
@@ -21,8 +20,6 @@ public class Deposito {
     public void agregarFormacion(Formacion formacion){
             formaciones.add(formacion);}
 
-    /*public List<String> vagonPesadoFormaciones (List<Vagon> vagones){
-        return formaciones.stream().map( f-> formacion.vagonPesado(vagones).nombreVagon()).collect( Collectors.toList());}*/
     /** 8. Si un depósito necesita un conductor experimentado.
      Un depósito necesita un conductor experimentado si alguna
      de sus formaciones es compleja. Una formación es compleja si: tiene más de 20 unidades
