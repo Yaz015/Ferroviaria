@@ -1,2 +1,2 @@
 # Ferroviaria
-Ejercidio trenes y vagones
+Ejercicio trenes y vagones
