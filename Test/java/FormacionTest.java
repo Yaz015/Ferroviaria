@@ -18,7 +18,6 @@ class FormacionTest {
     }
 
     @Test
-    //void locomotorapesoMaxArrastre(){ assertTrue( locomotora. );}
     void locomotoraEseficiente(){
         assertTrue(formacion.esEficiente());}
 }
