@@ -1,4 +1,9 @@
+HELP.md
+target/
 
-/.idea
-/Ferroviaria.iml
-/target
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+target/
